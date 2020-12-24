@@ -15,9 +15,11 @@ export default class App extends Component {
             </div>
           </div>
         </header>
-        <div className="container" style={{ display: "flex" }}>
-          <CommentAdd />
-          <CommentList />
+        <div className="container">
+          <div className="row">
+            <CommentAdd />
+            <CommentList />
+          </div>
         </div>
       </div>
     );
