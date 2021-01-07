@@ -4,6 +4,7 @@ setEnv() {
         sleep 1s
         setEnv
     else
+        echo "我走这一步"
     fi
 }
 setEnv
