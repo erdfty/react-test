@@ -9,5 +9,5 @@
 # }
 # setEnv
 # set -e
-echo -e $HOST_CONFIG >> /etc/hosts
-exec "$@"
+# echo -e $HOST_CONFIG >> /etc/hosts
+# exec "$@"
