@@ -8,6 +8,6 @@
 #     fi
 # }
 # setEnv
-# set -e
-# echo -e $HOST_CONFIG >> /etc/hosts
-# exec "$@"
+set -e
+echo -e $HOST_CONFIG >> /etc/hosts
+exec "$@"
